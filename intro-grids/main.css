@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+div {
+	margin: 10px;
+	border: 1px solid #000;
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+
+	background-color: #F00;
+}
+
+div:before {
+	content: 'It\'s green';
+	display: block;
+	background-color: green;
+	width: 100%;
+	margin: 8px;
+}
+
+div:after {
+	content: 'I\'m after...';
+	display: block;
+	background-color: blue;
+	width: 100%;
+	margin: 8px;
+
+}

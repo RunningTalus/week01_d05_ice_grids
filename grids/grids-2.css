@@ -1,0 +1,9 @@
+.container {
+	max-width: 300px;
+	margin: auto;
+}
+@media screen and (max-width: 300px){
+	.container {
+		max-width: 200px;
+	}
+}
